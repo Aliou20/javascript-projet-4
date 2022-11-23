@@ -1,0 +1,62 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+#formulaire {
+     width: 50%;
+     margin: 20px auto;
+}
+#formulaire fieldset {
+     border-radius: 10px;
+     padding: 20px;
+}
+#formulaire legend {
+     padding: 10px;
+     font-size: 1.2em;
+     font-weight: bold;
+}
+
+#formulaire .conteneur__input {
+     margin: 20px auto;
+     width: 90%;
+}
+#formulaire label {
+     display: block;
+     float: left;
+     width: 150px;
+     font-size: 1.0em;
+     margin:  15px ;
+}
+#formulaire input {
+     width: 50%;
+     padding: 10px 10px;
+}
+#formulaire #note {
+     display: flex;
+     width: 90%;
+     margin: 0px auto;
+} 
+#formulaire #conteneur__btn {
+     
+     margin: 20px auto;
+     display: flex;
+}
+#formulaire button {
+     padding: 10px 55px;
+     margin: auto;
+}
+#table {
+     width: 95%;
+     margin: 20px auto;
+     border-collapse: collapse;
+}
+/* #table tr {
+     padding: 50px;
+} */
+#table th,#table td {
+     border: 1px solid black;
+     padding: 15px 0;
+     text-align: center;
+}

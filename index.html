@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <form action="" id="formulaire">
+          <fieldset>
+               <legend>Inscription</legend>
+
+               <div class="conteneur__input">
+                    <label for="nom">Nom : </label> <input type="text" id="nom" name="nom" required>
+               </div>
+               <div class="conteneur__input">
+                    <label for="prenom">Prenom : </label> <input type="text" id="prenom" name="prenom" required>
+               </div>
+               <div class="conteneur__input">
+                    <label for="date">Date de naissance : </label> <input type="date" id="date" name="date" required>
+               </div>
+               <div class="conteneur__input">
+                    <label for="Adresse">Adresse : </label> <input type="text" id="Adresse" name="Adresse" required>
+               </div>
+               <div class="conteneur__input">
+                    <label for="email">Email : </label> <input type="email" id="email" name="email" required>
+               </div>
+               <div class="conteneur__input">
+                    <label for="tel">Téléphone : </label> <input type="tel" id="tel" name="tel" required>
+               </div>
+               <div id="note">
+                    <div class="conteneur__input">
+                         <label for="composition">Note de composition : </label> <input type="number" id="composition" name="composition" required>
+                    </div>
+                    <div class="conteneur__input">
+                         <label for="devoir">Note de devoir : </label> <input type="number" id="devoir" name="devoir" required>
+                    </div>
+                    <div class="conteneur__input">
+                         <label for="moyenne">Moyenne : </label> <input type="number" id="moyenne" name="moyenne" required>
+                    </div>
+               </div>
+               <div id="conteneur__btn">
+                    <button id="envoyer">Envoyer</button>
+                    <button id="annuler">Annuler</button>
+               </div>
+               
+          </fieldset>
+          
+     </form>
+
+     <table id="table">
+          <thead>
+               <tr>
+                    <th>Numero</th>
+                    <th>Nom</th>
+                    <th>Prenom</th>
+                    <th>Date de naissance</th>
+                    <th>Adresse</th>
+                    <th>Email</th>
+                    <th>Téléphone</th>
+                    <th>Note de composition</th>
+                    <th>Note de devoir</th>
+                    <th>Moyenne</th>
+               </tr>
+          </thead>
+          <tbody id="tbody">
+               
+          </tbody>
+     </table>
+
+     <script type="module" src="index.js"></script>
+</body>
+</html>
